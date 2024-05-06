@@ -1,0 +1,17 @@
+{
+	"ulid": "01HX6ZV2F32TD014ZFB343S5C4",
+	"minTime": 1714989605600,
+	"maxTime": 1714996800000,
+	"stats": {
+		"numSamples": 284011,
+		"numSeries": 1352,
+		"numChunks": 2374
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01HX6ZV2F32TD014ZFB343S5C4"
+		]
+	},
+	"version": 1
+}

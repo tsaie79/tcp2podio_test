@@ -1,0 +1,17 @@
+{
+	"ulid": "01HX76PT6JAG5ZF2BCRH808X7K",
+	"minTime": 1714996805600,
+	"maxTime": 1715004000000,
+	"stats": {
+		"numSamples": 347969,
+		"numSeries": 1786,
+		"numChunks": 3149
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01HX76PT6JAG5ZF2BCRH808X7K"
+		]
+	},
+	"version": 1
+}

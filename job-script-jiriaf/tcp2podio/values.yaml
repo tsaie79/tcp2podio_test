@@ -1,0 +1,16 @@
+name: "01"
+namespace: rtdp
+
+
+tcp2podio_settings:
+  image: docker:eicweb/jug_xl:nightly
+  workdir: /global/homes/j/jlabtsai/RTDP/eic
+  cmd: ./podio2tcp.build/tcp2podio
+
+
+prometheus_settings:
+  image: jlabtsai/process-exporter:pgid-go
+  cmd: -V /proc:/host_proc --entrypoint
+  wait_time_before_start: 8
+  process_exporter_port: "1776"
+

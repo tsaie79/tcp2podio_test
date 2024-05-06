@@ -1,0 +1,24 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: wf{{ .Values.name }}
+  namespace: {{ .Values.namespace }}
+data:
+  wf.sh: |
+    #!/bin/bash
+    cd {{ .Values.tcp2podio_settings.workdir }}
+    shifter --image={{ .Values.tcp2podio_settings.image }} -- {{ .Values.tcp2podio_settings.cmd }}
+
+---
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: prom{{ .Values.name }}
+  namespace: {{ .Values.namespace }}
+data:
+  prom.sh: |
+    #!/bin/bash
+    sleep {{ .Values.prometheus_settings.wait_time_before_start }}
+    
+    ssh -NfR 1776:localhost:1776 jiriaf2301
+    shifter --image={{ .Values.prometheus_settings.image }} {{ .Values.prometheus_settings.cmd }}

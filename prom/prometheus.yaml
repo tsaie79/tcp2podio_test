@@ -1,0 +1,28 @@
+global:
+  scrape_interval: 30s
+  scrape_timeout: 20s
+scrape_configs:
+- job_name: vk-nersc
+  metrics_path: /metrics/resource
+  scheme: https
+  static_configs:
+  - labels:
+      comupte_site: nersc
+      num_proc_nodes: '1'
+      run_date: '2024-05-05'
+      run_type: test
+      task_name: rtdp-tcp2podio
+    targets:
+    - localhost:10004
+  tls_config:
+    insecure_skip_verify: true
+- job_name: j-ersap-process-exporter-01
+  static_configs:
+  - labels:
+      comupte_site: nersc
+      num_proc_nodes: '1'
+      run_date: '2024-05-05'
+      run_type: test
+      task_name: rtdp-tcp2podio
+    targets:
+    - localhost:1776
