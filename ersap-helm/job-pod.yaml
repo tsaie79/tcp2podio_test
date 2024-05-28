@@ -1,0 +1,54 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: {{ .Values.Pod.name}}
+  namespace: {{ .Values.Pod.namespace}}
+  labels:
+    app: {{ .Values.Pod.name}}
+spec:
+  containers:
+    - name: wf
+      image: wf
+      command: ["bash"]
+      args: [""]
+      ports:
+        - containerPort: {{ index .Values.Service 0 "targetPort" }}
+        - containerPort: {{ index .Values.Service 2 "targetPort" }}
+      volumeMounts:
+        - name: wf
+          mountPath: wf
+      resources:
+        limits:
+          cpu: "256"
+        requests:
+          cpu: "256"
+
+    - name: prom
+      image: prom
+      command: ["bash"]
+      args: [""]
+      env:
+        - name: PGID_FILE
+          value: "~/default/{{ .Values.Pod.name }}/containers/wf/pgid"
+        - name: PROCESS_EXPORTER_PORT
+          value: {{ index .Values.Service 1 "targetPort" }}
+      ports:
+        - containerPort: {{ index .Values.Service 1 "targetPort" }}
+      volumeMounts:
+        - name: prom
+          mountPath: prom
+
+  volumes:
+    - name: wf
+      configMap:
+        name: wf{{ .Values.Pod.name}}
+    - name: prom
+      configMap:
+        name: prom{{ .Values.Pod.name}}
+
+  nodeSelector:
+    kubernetes.io/role: agent
+  tolerations:
+    - key: "virtual-kubelet.io/provider"
+      value: "mock"
+      effect: "NoSchedule"

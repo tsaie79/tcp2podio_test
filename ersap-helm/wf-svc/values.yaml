@@ -1,0 +1,111 @@
+Deployment:
+  name: ersap-test
+  namespace: default
+  replicas: 2
+
+  ersap_settings:
+    image: docker:gurjyan/ersap:v0.1
+    cmd: /ersap/run-pipeline-node.sh
+
+  prometheus_settings:
+    image: jlabtsai/process-exporter:pgid-go
+    cmd: -V /proc:/host_proc --entrypoint
+    wait_time_before_start: 8
+
+Service:
+- name:  ersap-exporter
+  node: "0"
+  protocol: TCP
+  port:  20050
+  originalPort: 2221
+  path: /metrics
+  interval: 15s
+- name: process-exporter
+  node: "0"
+  protocol: TCP
+  port:  20051
+  originalPort: 1776
+  path: /metrics
+  interval: 15s
+- name: ejfat-exporter
+  node: "0"
+  protocol: TCP
+  port:  20052
+  originalPort: 8080
+  path: /metrics
+  interval: 15s
+- name: jrm-exporter
+  node: "0"
+  protocol: TCP
+  port:  10043
+  originalPort: 10043
+  path: /metrics/resource
+  interval: 15s
+
+- name:  ersap-exporter
+  node: "1"
+  protocol: TCP
+  port:  20053
+  originalPort: 2221
+  path: /metrics
+  interval: 15s
+- name: process-exporter
+  node: "1"
+  protocol: TCP
+  port:  20054
+  originalPort: 1776
+  path: /metrics
+  interval: 15s
+- name: ejfat-exporter
+  node: "1"
+  protocol: TCP
+  port:  20055
+  originalPort: 8080
+  path: /metrics
+  interval: 15s
+- name: jrm-exporter
+  node: "1"
+  protocol: TCP
+  port:  10044
+  originalPort: 10044
+  path: /metrics/resource
+  interval: 15s
+
+- name:  ersap-exporter
+  node: "2"
+  protocol: TCP
+  port:  20056
+  originalPort: 2221
+  path: /metrics
+  interval: 15s
+- name: process-exporter
+  node: "2"
+  protocol: TCP
+  port:  20057
+  originalPort: 1776
+  path: /metrics
+  interval: 15s
+- name: ejfat-exporter
+  node: "2"
+  protocol: TCP
+  port:  20058
+  originalPort: 8080
+  path: /metrics
+  interval: 15s
+- name: jrm-exporter
+  node: "2"
+  protocol: TCP
+  port:  10045
+  originalPort: 10045
+  path: /metrics/resource
+  interval: 15s
+
+PersistentVolume:
+  node: jiriaf2302-control-plane
+  path: /var/prom
+  size: 10Gi
+Prometheus:
+  serviceaccount: prometheus-k8s
+  namespace: monitoring
+
+#https://github.com/prometheus-operator/kube-prometheus/blob/main/docs/customizations/monitoring-additional-namespaces.md
