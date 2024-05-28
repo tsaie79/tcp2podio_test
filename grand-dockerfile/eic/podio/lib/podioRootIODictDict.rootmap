@@ -1,0 +1,8 @@
+{ decls }
+namespace podio {  }
+
+[ libpodioRootIODict.so ]
+# List of selected classes
+class podio::ROOTLegacyReader
+class podio::ROOTReader
+class podio::ROOTWriter

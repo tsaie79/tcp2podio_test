@@ -1,0 +1,740 @@
+[
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/algorithms_init",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_init_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_init_plugin.dir/algorithms_init.cc.o -c /home/tsai/eic/EICrecon.src/src/services/algorithms_init/algorithms_init.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/algorithms_init/algorithms_init.cc",
+  "output": "src/services/algorithms_init/CMakeFiles/algorithms_init_plugin.dir/algorithms_init.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/geometry/dd4hep",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Ddd4hep_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/dd4hep_plugin.dir/DD4hep_service.cc.o -c /home/tsai/eic/EICrecon.src/src/services/geometry/dd4hep/DD4hep_service.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/geometry/dd4hep/DD4hep_service.cc",
+  "output": "src/services/geometry/dd4hep/CMakeFiles/dd4hep_plugin.dir/DD4hep_service.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/geometry/dd4hep",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Ddd4hep_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/dd4hep_plugin.dir/dd4hep.cc.o -c /home/tsai/eic/EICrecon.src/src/services/geometry/dd4hep/dd4hep.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/geometry/dd4hep/dd4hep.cc",
+  "output": "src/services/geometry/dd4hep/CMakeFiles/dd4hep_plugin.dir/dd4hep.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/geometry/acts",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dacts_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/acts_plugin.dir/ACTSGeo_service.cc.o -c /home/tsai/eic/EICrecon.src/src/services/geometry/acts/ACTSGeo_service.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/geometry/acts/ACTSGeo_service.cc",
+  "output": "src/services/geometry/acts/CMakeFiles/acts_plugin.dir/ACTSGeo_service.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/geometry/acts",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dacts_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/acts_plugin.dir/acts.cc.o -c /home/tsai/eic/EICrecon.src/src/services/geometry/acts/acts.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/geometry/acts/acts.cc",
+  "output": "src/services/geometry/acts/CMakeFiles/acts_plugin.dir/acts.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/geometry/richgeo",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Drichgeo_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/richgeo_plugin.dir/ActsGeo.cc.o -c /home/tsai/eic/EICrecon.src/src/services/geometry/richgeo/ActsGeo.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/geometry/richgeo/ActsGeo.cc",
+  "output": "src/services/geometry/richgeo/CMakeFiles/richgeo_plugin.dir/ActsGeo.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/geometry/richgeo",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Drichgeo_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/richgeo_plugin.dir/IrtGeo.cc.o -c /home/tsai/eic/EICrecon.src/src/services/geometry/richgeo/IrtGeo.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/geometry/richgeo/IrtGeo.cc",
+  "output": "src/services/geometry/richgeo/CMakeFiles/richgeo_plugin.dir/IrtGeo.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/geometry/richgeo",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Drichgeo_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/richgeo_plugin.dir/IrtGeoDRICH.cc.o -c /home/tsai/eic/EICrecon.src/src/services/geometry/richgeo/IrtGeoDRICH.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/geometry/richgeo/IrtGeoDRICH.cc",
+  "output": "src/services/geometry/richgeo/CMakeFiles/richgeo_plugin.dir/IrtGeoDRICH.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/geometry/richgeo",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Drichgeo_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/richgeo_plugin.dir/IrtGeoPFRICH.cc.o -c /home/tsai/eic/EICrecon.src/src/services/geometry/richgeo/IrtGeoPFRICH.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/geometry/richgeo/IrtGeoPFRICH.cc",
+  "output": "src/services/geometry/richgeo/CMakeFiles/richgeo_plugin.dir/IrtGeoPFRICH.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/geometry/richgeo",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Drichgeo_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/richgeo_plugin.dir/ReadoutGeo.cc.o -c /home/tsai/eic/EICrecon.src/src/services/geometry/richgeo/ReadoutGeo.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/geometry/richgeo/ReadoutGeo.cc",
+  "output": "src/services/geometry/richgeo/CMakeFiles/richgeo_plugin.dir/ReadoutGeo.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/geometry/richgeo",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Drichgeo_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/richgeo_plugin.dir/RichGeo_service.cc.o -c /home/tsai/eic/EICrecon.src/src/services/geometry/richgeo/RichGeo_service.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/geometry/richgeo/RichGeo_service.cc",
+  "output": "src/services/geometry/richgeo/CMakeFiles/richgeo_plugin.dir/RichGeo_service.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/geometry/richgeo",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Drichgeo_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/richgeo_plugin.dir/richgeo.cc.o -c /home/tsai/eic/EICrecon.src/src/services/geometry/richgeo/richgeo.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/geometry/richgeo/richgeo.cc",
+  "output": "src/services/geometry/richgeo/CMakeFiles/richgeo_plugin.dir/richgeo.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/io/podio",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src/services/io/podio -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/JANA2/include -I/usr/local/include/root -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/podio/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/G__datamodel_vectors.dir/G__datamodel_vectors.cxx.o -c /home/tsai/eic/EICrecon.build/src/services/io/podio/G__datamodel_vectors.cxx",
+  "file": "/home/tsai/eic/EICrecon.build/src/services/io/podio/G__datamodel_vectors.cxx",
+  "output": "src/services/io/podio/CMakeFiles/G__datamodel_vectors.dir/G__datamodel_vectors.cxx.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/io/podio",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dpodio_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/podio_plugin.dir/JEventProcessorPODIO.cc.o -c /home/tsai/eic/EICrecon.src/src/services/io/podio/JEventProcessorPODIO.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/io/podio/JEventProcessorPODIO.cc",
+  "output": "src/services/io/podio/CMakeFiles/podio_plugin.dir/JEventProcessorPODIO.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/io/podio",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dpodio_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/podio_plugin.dir/JEventSourcePODIO.cc.o -c /home/tsai/eic/EICrecon.src/src/services/io/podio/JEventSourcePODIO.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/io/podio/JEventSourcePODIO.cc",
+  "output": "src/services/io/podio/CMakeFiles/podio_plugin.dir/JEventSourcePODIO.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/io/podio",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dpodio_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/podio_plugin.dir/podio.cc.o -c /home/tsai/eic/EICrecon.src/src/services/io/podio/podio.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/io/podio/podio.cc",
+  "output": "src/services/io/podio/CMakeFiles/podio_plugin.dir/podio.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/log",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/log_library.dir/Log_service.cc.o -c /home/tsai/eic/EICrecon.src/src/services/log/Log_service.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/log/Log_service.cc",
+  "output": "src/services/log/CMakeFiles/log_library.dir/Log_service.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/log",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dlog_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/log_plugin.dir/log.cc.o -c /home/tsai/eic/EICrecon.src/src/services/log/log.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/log/log.cc",
+  "output": "src/services/log/CMakeFiles/log_plugin.dir/log.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/services/rootfile",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Drootfile_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/rootfile_plugin.dir/rootfile.cc.o -c /home/tsai/eic/EICrecon.src/src/services/rootfile/rootfile.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/services/rootfile/rootfile.cc",
+  "output": "src/services/rootfile/CMakeFiles/rootfile_plugin.dir/rootfile.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/calorimetry",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_calorimetry_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_calorimetry_library.dir/CalorimeterClusterRecoCoG.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/calorimetry/CalorimeterClusterRecoCoG.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/calorimetry/CalorimeterClusterRecoCoG.cc",
+  "output": "src/algorithms/calorimetry/CMakeFiles/algorithms_calorimetry_library.dir/CalorimeterClusterRecoCoG.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/calorimetry",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_calorimetry_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_calorimetry_library.dir/CalorimeterHitDigi.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/calorimetry/CalorimeterHitDigi.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/calorimetry/CalorimeterHitDigi.cc",
+  "output": "src/algorithms/calorimetry/CMakeFiles/algorithms_calorimetry_library.dir/CalorimeterHitDigi.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/calorimetry",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_calorimetry_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_calorimetry_library.dir/CalorimeterHitReco.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/calorimetry/CalorimeterHitReco.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/calorimetry/CalorimeterHitReco.cc",
+  "output": "src/algorithms/calorimetry/CMakeFiles/algorithms_calorimetry_library.dir/CalorimeterHitReco.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/calorimetry",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_calorimetry_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_calorimetry_library.dir/CalorimeterHitsMerger.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/calorimetry/CalorimeterHitsMerger.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/calorimetry/CalorimeterHitsMerger.cc",
+  "output": "src/algorithms/calorimetry/CMakeFiles/algorithms_calorimetry_library.dir/CalorimeterHitsMerger.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/calorimetry",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_calorimetry_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_calorimetry_library.dir/CalorimeterIslandCluster.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/calorimetry/CalorimeterIslandCluster.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/calorimetry/CalorimeterIslandCluster.cc",
+  "output": "src/algorithms/calorimetry/CMakeFiles/algorithms_calorimetry_library.dir/CalorimeterIslandCluster.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/calorimetry",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_calorimetry_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_calorimetry_library.dir/CalorimeterTruthClustering.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/calorimetry/CalorimeterTruthClustering.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/calorimetry/CalorimeterTruthClustering.cc",
+  "output": "src/algorithms/calorimetry/CMakeFiles/algorithms_calorimetry_library.dir/CalorimeterTruthClustering.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/calorimetry",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_calorimetry_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_calorimetry_library.dir/HEXPLIT.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/calorimetry/HEXPLIT.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/calorimetry/HEXPLIT.cc",
+  "output": "src/algorithms/calorimetry/CMakeFiles/algorithms_calorimetry_library.dir/HEXPLIT.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/tracking",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_tracking_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_tracking_library.dir/ActsGeometryProvider.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/tracking/ActsGeometryProvider.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/tracking/ActsGeometryProvider.cc",
+  "output": "src/algorithms/tracking/CMakeFiles/algorithms_tracking_library.dir/ActsGeometryProvider.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/tracking",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_tracking_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_tracking_library.dir/CKFTracking.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/tracking/CKFTracking.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/tracking/CKFTracking.cc",
+  "output": "src/algorithms/tracking/CMakeFiles/algorithms_tracking_library.dir/CKFTracking.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/tracking",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_tracking_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_tracking_library.dir/CKFTrackingFunction.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/tracking/CKFTrackingFunction.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/tracking/CKFTrackingFunction.cc",
+  "output": "src/algorithms/tracking/CMakeFiles/algorithms_tracking_library.dir/CKFTrackingFunction.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/tracking",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_tracking_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_tracking_library.dir/DD4hepBField.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/tracking/DD4hepBField.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/tracking/DD4hepBField.cc",
+  "output": "src/algorithms/tracking/CMakeFiles/algorithms_tracking_library.dir/DD4hepBField.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/tracking",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_tracking_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_tracking_library.dir/IterativeVertexFinder.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/tracking/IterativeVertexFinder.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/tracking/IterativeVertexFinder.cc",
+  "output": "src/algorithms/tracking/CMakeFiles/algorithms_tracking_library.dir/IterativeVertexFinder.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/tracking",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_tracking_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_tracking_library.dir/TrackParamTruthInit.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/tracking/TrackParamTruthInit.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/tracking/TrackParamTruthInit.cc",
+  "output": "src/algorithms/tracking/CMakeFiles/algorithms_tracking_library.dir/TrackParamTruthInit.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/tracking",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_tracking_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_tracking_library.dir/TrackProjector.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/tracking/TrackProjector.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/tracking/TrackProjector.cc",
+  "output": "src/algorithms/tracking/CMakeFiles/algorithms_tracking_library.dir/TrackProjector.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/tracking",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_tracking_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_tracking_library.dir/TrackPropagation.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/tracking/TrackPropagation.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/tracking/TrackPropagation.cc",
+  "output": "src/algorithms/tracking/CMakeFiles/algorithms_tracking_library.dir/TrackPropagation.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/tracking",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_tracking_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_tracking_library.dir/TrackSeeding.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/tracking/TrackSeeding.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/tracking/TrackSeeding.cc",
+  "output": "src/algorithms/tracking/CMakeFiles/algorithms_tracking_library.dir/TrackSeeding.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/tracking",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_tracking_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_tracking_library.dir/TrackerHitReconstruction.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/tracking/TrackerHitReconstruction.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/tracking/TrackerHitReconstruction.cc",
+  "output": "src/algorithms/tracking/CMakeFiles/algorithms_tracking_library.dir/TrackerHitReconstruction.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/tracking",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_tracking_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_tracking_library.dir/TrackerMeasurementFromHits.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/tracking/TrackerMeasurementFromHits.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/tracking/TrackerMeasurementFromHits.cc",
+  "output": "src/algorithms/tracking/CMakeFiles/algorithms_tracking_library.dir/TrackerMeasurementFromHits.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/pid",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_pid_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_pid_library.dir/IrtCherenkovParticleID.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/pid/IrtCherenkovParticleID.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/pid/IrtCherenkovParticleID.cc",
+  "output": "src/algorithms/pid/CMakeFiles/algorithms_pid_library.dir/IrtCherenkovParticleID.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/pid",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_pid_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_pid_library.dir/MergeParticleID.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/pid/MergeParticleID.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/pid/MergeParticleID.cc",
+  "output": "src/algorithms/pid/CMakeFiles/algorithms_pid_library.dir/MergeParticleID.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/pid",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_pid_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_pid_library.dir/MergeTracks.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/pid/MergeTracks.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/pid/MergeTracks.cc",
+  "output": "src/algorithms/pid/CMakeFiles/algorithms_pid_library.dir/MergeTracks.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/pid",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_pid_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_pid_library.dir/ParticlesWithPID.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/pid/ParticlesWithPID.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/pid/ParticlesWithPID.cc",
+  "output": "src/algorithms/pid/CMakeFiles/algorithms_pid_library.dir/ParticlesWithPID.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/digi",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_digi_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_digi_library.dir/PhotoMultiplierHitDigi.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/digi/PhotoMultiplierHitDigi.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/digi/PhotoMultiplierHitDigi.cc",
+  "output": "src/algorithms/digi/CMakeFiles/algorithms_digi_library.dir/PhotoMultiplierHitDigi.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/digi",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_digi_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_digi_library.dir/SiliconTrackerDigi.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/digi/SiliconTrackerDigi.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/digi/SiliconTrackerDigi.cc",
+  "output": "src/algorithms/digi/CMakeFiles/algorithms_digi_library.dir/SiliconTrackerDigi.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/reco",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_reco_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_reco_library.dir/ElectronReconstruction.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/reco/ElectronReconstruction.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/reco/ElectronReconstruction.cc",
+  "output": "src/algorithms/reco/CMakeFiles/algorithms_reco_library.dir/ElectronReconstruction.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/reco",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_reco_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_reco_library.dir/InclusiveKinematicsDA.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/reco/InclusiveKinematicsDA.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/reco/InclusiveKinematicsDA.cc",
+  "output": "src/algorithms/reco/CMakeFiles/algorithms_reco_library.dir/InclusiveKinematicsDA.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/reco",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_reco_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_reco_library.dir/InclusiveKinematicsElectron.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/reco/InclusiveKinematicsElectron.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/reco/InclusiveKinematicsElectron.cc",
+  "output": "src/algorithms/reco/CMakeFiles/algorithms_reco_library.dir/InclusiveKinematicsElectron.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/reco",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_reco_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_reco_library.dir/InclusiveKinematicsJB.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/reco/InclusiveKinematicsJB.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/reco/InclusiveKinematicsJB.cc",
+  "output": "src/algorithms/reco/CMakeFiles/algorithms_reco_library.dir/InclusiveKinematicsJB.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/reco",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_reco_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_reco_library.dir/InclusiveKinematicsSigma.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/reco/InclusiveKinematicsSigma.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/reco/InclusiveKinematicsSigma.cc",
+  "output": "src/algorithms/reco/CMakeFiles/algorithms_reco_library.dir/InclusiveKinematicsSigma.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/reco",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_reco_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_reco_library.dir/InclusiveKinematicsTruth.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/reco/InclusiveKinematicsTruth.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/reco/InclusiveKinematicsTruth.cc",
+  "output": "src/algorithms/reco/CMakeFiles/algorithms_reco_library.dir/InclusiveKinematicsTruth.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/reco",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_reco_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_reco_library.dir/InclusiveKinematicseSigma.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/reco/InclusiveKinematicseSigma.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/reco/InclusiveKinematicseSigma.cc",
+  "output": "src/algorithms/reco/CMakeFiles/algorithms_reco_library.dir/InclusiveKinematicseSigma.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/reco",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_reco_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_reco_library.dir/JetReconstruction.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/reco/JetReconstruction.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/reco/JetReconstruction.cc",
+  "output": "src/algorithms/reco/CMakeFiles/algorithms_reco_library.dir/JetReconstruction.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/reco",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_reco_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_reco_library.dir/MC2SmearedParticle.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/reco/MC2SmearedParticle.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/reco/MC2SmearedParticle.cc",
+  "output": "src/algorithms/reco/CMakeFiles/algorithms_reco_library.dir/MC2SmearedParticle.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/reco",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_reco_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_reco_library.dir/MatchClusters.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/reco/MatchClusters.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/reco/MatchClusters.cc",
+  "output": "src/algorithms/reco/CMakeFiles/algorithms_reco_library.dir/MatchClusters.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/reco",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_reco_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_reco_library.dir/ScatteredElectronsEMinusPz.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/reco/ScatteredElectronsEMinusPz.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/reco/ScatteredElectronsEMinusPz.cc",
+  "output": "src/algorithms/reco/CMakeFiles/algorithms_reco_library.dir/ScatteredElectronsEMinusPz.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/reco",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_reco_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_reco_library.dir/ScatteredElectronsTruth.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/reco/ScatteredElectronsTruth.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/reco/ScatteredElectronsTruth.cc",
+  "output": "src/algorithms/reco/CMakeFiles/algorithms_reco_library.dir/ScatteredElectronsTruth.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/reco",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_reco_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_reco_library.dir/TransformBreitFrame.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/reco/TransformBreitFrame.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/reco/TransformBreitFrame.cc",
+  "output": "src/algorithms/reco/CMakeFiles/algorithms_reco_library.dir/TransformBreitFrame.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/algorithms/fardetectors",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dalgorithms_fardetectors_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/algorithms_fardetectors_library.dir/MatrixTransferStatic.cc.o -c /home/tsai/eic/EICrecon.src/src/algorithms/fardetectors/MatrixTransferStatic.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/algorithms/fardetectors/MatrixTransferStatic.cc",
+  "output": "src/algorithms/fardetectors/CMakeFiles/algorithms_fardetectors_library.dir/MatrixTransferStatic.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/benchmarks/detectors/EcalBarrelScFiCheck",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DEcalBarrelScFiCheck_plugin_EXPORTS -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/EcalBarrelScFiCheck_plugin.dir/EcalBarrelScFiCheck.cc.o -c /home/tsai/eic/EICrecon.src/src/benchmarks/detectors/EcalBarrelScFiCheck/EcalBarrelScFiCheck.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/benchmarks/detectors/EcalBarrelScFiCheck/EcalBarrelScFiCheck.cc",
+  "output": "src/benchmarks/detectors/EcalBarrelScFiCheck/CMakeFiles/EcalBarrelScFiCheck_plugin.dir/EcalBarrelScFiCheck.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/benchmarks/detectors/EcalBarrelScFiCheck",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DEcalBarrelScFiCheck_plugin_EXPORTS -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/EcalBarrelScFiCheck_plugin.dir/EcalBarrelScFiCheckProcessor.cc.o -c /home/tsai/eic/EICrecon.src/src/benchmarks/detectors/EcalBarrelScFiCheck/EcalBarrelScFiCheckProcessor.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/benchmarks/detectors/EcalBarrelScFiCheck/EcalBarrelScFiCheckProcessor.cc",
+  "output": "src/benchmarks/detectors/EcalBarrelScFiCheck/CMakeFiles/EcalBarrelScFiCheck_plugin.dir/EcalBarrelScFiCheckProcessor.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/benchmarks/reconstruction/TRACKINGcheck",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -DTRACKINGcheck_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/TRACKINGcheck_plugin.dir/TRACKINGcheck.cc.o -c /home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/TRACKINGcheck/TRACKINGcheck.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/TRACKINGcheck/TRACKINGcheck.cc",
+  "output": "src/benchmarks/reconstruction/TRACKINGcheck/CMakeFiles/TRACKINGcheck_plugin.dir/TRACKINGcheck.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/benchmarks/reconstruction/TRACKINGcheck",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -DTRACKINGcheck_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/TRACKINGcheck_plugin.dir/TRACKINGcheckProcessor.cc.o -c /home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/TRACKINGcheck/TRACKINGcheckProcessor.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/TRACKINGcheck/TRACKINGcheckProcessor.cc",
+  "output": "src/benchmarks/reconstruction/TRACKINGcheck/CMakeFiles/TRACKINGcheck_plugin.dir/TRACKINGcheckProcessor.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/benchmarks/reconstruction/tracking_occupancy",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtracking_occupancy_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/tracking_occupancy_plugin.dir/HitReconstructionAnalysis.cc.o -c /home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/tracking_occupancy/HitReconstructionAnalysis.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/tracking_occupancy/HitReconstructionAnalysis.cc",
+  "output": "src/benchmarks/reconstruction/tracking_occupancy/CMakeFiles/tracking_occupancy_plugin.dir/HitReconstructionAnalysis.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/benchmarks/reconstruction/tracking_occupancy",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtracking_occupancy_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/tracking_occupancy_plugin.dir/TrackingOccupancyAnalysis.cc.o -c /home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/tracking_occupancy/TrackingOccupancyAnalysis.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/tracking_occupancy/TrackingOccupancyAnalysis.cc",
+  "output": "src/benchmarks/reconstruction/tracking_occupancy/CMakeFiles/tracking_occupancy_plugin.dir/TrackingOccupancyAnalysis.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/benchmarks/reconstruction/tracking_occupancy",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtracking_occupancy_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/tracking_occupancy_plugin.dir/TrackingOccupancy_processor.cc.o -c /home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/tracking_occupancy/TrackingOccupancy_processor.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/tracking_occupancy/TrackingOccupancy_processor.cc",
+  "output": "src/benchmarks/reconstruction/tracking_occupancy/CMakeFiles/tracking_occupancy_plugin.dir/TrackingOccupancy_processor.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/benchmarks/reconstruction/tracking_occupancy",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtracking_occupancy_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/tracking_occupancy_plugin.dir/tracking_occupancy.cc.o -c /home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/tracking_occupancy/tracking_occupancy.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/tracking_occupancy/tracking_occupancy.cc",
+  "output": "src/benchmarks/reconstruction/tracking_occupancy/CMakeFiles/tracking_occupancy_plugin.dir/tracking_occupancy.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/benchmarks/reconstruction/tracking_efficiency",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtracking_efficiency_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/tracking_efficiency_plugin.dir/TrackingEfficiency_processor.cc.o -c /home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/tracking_efficiency/TrackingEfficiency_processor.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/tracking_efficiency/TrackingEfficiency_processor.cc",
+  "output": "src/benchmarks/reconstruction/tracking_efficiency/CMakeFiles/tracking_efficiency_plugin.dir/TrackingEfficiency_processor.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/benchmarks/reconstruction/tracking_efficiency",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtracking_efficiency_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/tracking_efficiency_plugin.dir/tracking_efficiency.cc.o -c /home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/tracking_efficiency/tracking_efficiency.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/tracking_efficiency/tracking_efficiency.cc",
+  "output": "src/benchmarks/reconstruction/tracking_efficiency/CMakeFiles/tracking_efficiency_plugin.dir/tracking_efficiency.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/benchmarks/reconstruction/tof_efficiency",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtof_efficiency_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/tof_efficiency_plugin.dir/TofEfficiency_processor.cc.o -c /home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/tof_efficiency/TofEfficiency_processor.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/tof_efficiency/TofEfficiency_processor.cc",
+  "output": "src/benchmarks/reconstruction/tof_efficiency/CMakeFiles/tof_efficiency_plugin.dir/TofEfficiency_processor.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/benchmarks/reconstruction/tof_efficiency",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtof_efficiency_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/tof_efficiency_plugin.dir/tof_efficiency.cc.o -c /home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/tof_efficiency/tof_efficiency.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/tof_efficiency/tof_efficiency.cc",
+  "output": "src/benchmarks/reconstruction/tof_efficiency/CMakeFiles/tof_efficiency_plugin.dir/tof_efficiency.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/benchmarks/reconstruction/lfhcal_studies",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dlfhcal_studies_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/lfhcal_studies_plugin.dir/lfhcal_studies.cc.o -c /home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/lfhcal_studies/lfhcal_studies.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/lfhcal_studies/lfhcal_studies.cc",
+  "output": "src/benchmarks/reconstruction/lfhcal_studies/CMakeFiles/lfhcal_studies_plugin.dir/lfhcal_studies.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/benchmarks/reconstruction/lfhcal_studies",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dlfhcal_studies_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/lfhcal_studies_plugin.dir/lfhcal_studiesProcessor.cc.o -c /home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/lfhcal_studies/lfhcal_studiesProcessor.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/lfhcal_studies/lfhcal_studiesProcessor.cc",
+  "output": "src/benchmarks/reconstruction/lfhcal_studies/CMakeFiles/lfhcal_studies_plugin.dir/lfhcal_studiesProcessor.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/benchmarks/reconstruction/femc_studies",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dfemc_studies_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/femc_studies_plugin.dir/femc_studies.cc.o -c /home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/femc_studies/femc_studies.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/femc_studies/femc_studies.cc",
+  "output": "src/benchmarks/reconstruction/femc_studies/CMakeFiles/femc_studies_plugin.dir/femc_studies.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/benchmarks/reconstruction/femc_studies",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dfemc_studies_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/femc_studies_plugin.dir/femc_studiesProcessor.cc.o -c /home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/femc_studies/femc_studiesProcessor.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/benchmarks/reconstruction/femc_studies/femc_studiesProcessor.cc",
+  "output": "src/benchmarks/reconstruction/femc_studies/CMakeFiles/femc_studies_plugin.dir/femc_studiesProcessor.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/BEMC",
+  "command": "/usr/bin/c++ -DBEMC_plugin_EXPORTS -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/BEMC_plugin.dir/BEMC.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/BEMC/BEMC.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/BEMC/BEMC.cc",
+  "output": "src/detectors/BEMC/CMakeFiles/BEMC_plugin.dir/BEMC.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/EEMC",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DEEMC_plugin_EXPORTS -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/EEMC_plugin.dir/EEMC.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/EEMC/EEMC.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/EEMC/EEMC.cc",
+  "output": "src/detectors/EEMC/CMakeFiles/EEMC_plugin.dir/EEMC.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/FEMC",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFEMC_plugin_EXPORTS -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/FEMC_plugin.dir/FEMC.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/FEMC/FEMC.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/FEMC/FEMC.cc",
+  "output": "src/detectors/FEMC/CMakeFiles/FEMC_plugin.dir/FEMC.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/EHCAL",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DEHCAL_plugin_EXPORTS -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/EHCAL_plugin.dir/EHCAL.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/EHCAL/EHCAL.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/EHCAL/EHCAL.cc",
+  "output": "src/detectors/EHCAL/CMakeFiles/EHCAL_plugin.dir/EHCAL.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/BHCAL",
+  "command": "/usr/bin/c++ -DBHCAL_plugin_EXPORTS -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/BHCAL_plugin.dir/BHCAL.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/BHCAL/BHCAL.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/BHCAL/BHCAL.cc",
+  "output": "src/detectors/BHCAL/CMakeFiles/BHCAL_plugin.dir/BHCAL.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/FHCAL",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFHCAL_plugin_EXPORTS -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/FHCAL_plugin.dir/FHCAL.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/FHCAL/FHCAL.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/FHCAL/FHCAL.cc",
+  "output": "src/detectors/FHCAL/CMakeFiles/FHCAL_plugin.dir/FHCAL.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/ZDC",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -DZDC_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/ZDC_plugin.dir/ZDC.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/ZDC/ZDC.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/ZDC/ZDC.cc",
+  "output": "src/detectors/ZDC/CMakeFiles/ZDC_plugin.dir/ZDC.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/B0ECAL",
+  "command": "/usr/bin/c++ -DB0ECAL_plugin_EXPORTS -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/B0ECAL_plugin.dir/B0ECAL.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/B0ECAL/B0ECAL.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/B0ECAL/B0ECAL.cc",
+  "output": "src/detectors/B0ECAL/CMakeFiles/B0ECAL_plugin.dir/B0ECAL.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/BTRK",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBTRK_plugin_EXPORTS -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/BTRK_plugin.dir/BTRK.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/BTRK/BTRK.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/BTRK/BTRK.cc",
+  "output": "src/detectors/BTRK/CMakeFiles/BTRK_plugin.dir/BTRK.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/BVTX",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBVTX_plugin_EXPORTS -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/BVTX_plugin.dir/BVTX.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/BVTX/BVTX.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/BVTX/BVTX.cc",
+  "output": "src/detectors/BVTX/CMakeFiles/BVTX_plugin.dir/BVTX.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/ECTRK",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DECTRK_plugin_EXPORTS -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/ECTRK_plugin.dir/ECTRK.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/ECTRK/ECTRK.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/ECTRK/ECTRK.cc",
+  "output": "src/detectors/ECTRK/CMakeFiles/ECTRK_plugin.dir/ECTRK.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/MPGD",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DMPGD_plugin_EXPORTS -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/MPGD_plugin.dir/MPGD.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/MPGD/MPGD.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/MPGD/MPGD.cc",
+  "output": "src/detectors/MPGD/CMakeFiles/MPGD_plugin.dir/MPGD.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/RPOTS",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DRPOTS_plugin_EXPORTS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/RPOTS_plugin.dir/RPOTS.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/RPOTS/RPOTS.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/RPOTS/RPOTS.cc",
+  "output": "src/detectors/RPOTS/CMakeFiles/RPOTS_plugin.dir/RPOTS.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/FOFFMTRK",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DFOFFMTRK_plugin_EXPORTS -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/FOFFMTRK_plugin.dir/FOFFMTRK.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/FOFFMTRK/FOFFMTRK.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/FOFFMTRK/FOFFMTRK.cc",
+  "output": "src/detectors/FOFFMTRK/CMakeFiles/FOFFMTRK_plugin.dir/FOFFMTRK.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/ECTOF",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DECTOF_plugin_EXPORTS -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/ECTOF_plugin.dir/ECTOF.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/ECTOF/ECTOF.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/ECTOF/ECTOF.cc",
+  "output": "src/detectors/ECTOF/CMakeFiles/ECTOF_plugin.dir/ECTOF.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/BTOF",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBTOF_plugin_EXPORTS -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/BTOF_plugin.dir/BTOF.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/BTOF/BTOF.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/BTOF/BTOF.cc",
+  "output": "src/detectors/BTOF/CMakeFiles/BTOF_plugin.dir/BTOF.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/B0TRK",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DB0TRK_plugin_EXPORTS -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/B0TRK_plugin.dir/B0TRK.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/B0TRK/B0TRK.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/B0TRK/B0TRK.cc",
+  "output": "src/detectors/B0TRK/CMakeFiles/B0TRK_plugin.dir/B0TRK.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/LOWQ2",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DLOWQ2_plugin_EXPORTS -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/LOWQ2_plugin.dir/LOWQ2.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/LOWQ2/LOWQ2.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/LOWQ2/LOWQ2.cc",
+  "output": "src/detectors/LOWQ2/CMakeFiles/LOWQ2_plugin.dir/LOWQ2.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/LUMISPECCAL",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DLUMISPECCAL_plugin_EXPORTS -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/LUMISPECCAL_plugin.dir/LUMISPECCAL.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/LUMISPECCAL/LUMISPECCAL.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/LUMISPECCAL/LUMISPECCAL.cc",
+  "output": "src/detectors/LUMISPECCAL/CMakeFiles/LUMISPECCAL_plugin.dir/LUMISPECCAL.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/DRICH",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DDRICH_plugin_EXPORTS -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/DRICH_plugin.dir/DRICH.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/DRICH/DRICH.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/DRICH/DRICH.cc",
+  "output": "src/detectors/DRICH/CMakeFiles/DRICH_plugin.dir/DRICH.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/detectors/DIRC",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDIRC_plugin_EXPORTS -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/DIRC_plugin.dir/DIRC.cc.o -c /home/tsai/eic/EICrecon.src/src/detectors/DIRC/DIRC.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/detectors/DIRC/DIRC.cc",
+  "output": "src/detectors/DIRC/CMakeFiles/DIRC_plugin.dir/DIRC.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/examples/track_matching",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /home/tsai/eic/EICrecon.src/executables -isystem /home/tsai/eic/EICrecon.src/common_bench/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -O3 -DNDEBUG -std=c++20 -fPIE -o CMakeFiles/reco_particles_track_matching.dir/reco_particles_track_matching.cc.o -c /home/tsai/eic/EICrecon.src/src/examples/track_matching/reco_particles_track_matching.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/examples/track_matching/reco_particles_track_matching.cc",
+  "output": "src/examples/track_matching/CMakeFiles/reco_particles_track_matching.dir/reco_particles_track_matching.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/global/tracking",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtracking_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/tracking_plugin.dir/tracking.cc.o -c /home/tsai/eic/EICrecon.src/src/global/tracking/tracking.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/global/tracking/tracking.cc",
+  "output": "src/global/tracking/CMakeFiles/tracking_plugin.dir/tracking.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/global/reco",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dreco_library_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/reco_library.dir/MatchClusters_factory.cc.o -c /home/tsai/eic/EICrecon.src/src/global/reco/MatchClusters_factory.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/global/reco/MatchClusters_factory.cc",
+  "output": "src/global/reco/CMakeFiles/reco_library.dir/MatchClusters_factory.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/global/reco",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dreco_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/reco_plugin.dir/reco.cc.o -c /home/tsai/eic/EICrecon.src/src/global/reco/reco.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/global/reco/reco.cc",
+  "output": "src/global/reco/CMakeFiles/reco_plugin.dir/reco.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/global/pid",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dpid_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/pid_plugin.dir/IrtCherenkovParticleID_factory.cc.o -c /home/tsai/eic/EICrecon.src/src/global/pid/IrtCherenkovParticleID_factory.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/global/pid/IrtCherenkovParticleID_factory.cc",
+  "output": "src/global/pid/CMakeFiles/pid_plugin.dir/IrtCherenkovParticleID_factory.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/global/pid",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dpid_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/pid_plugin.dir/MergeCherenkovParticleID_factory.cc.o -c /home/tsai/eic/EICrecon.src/src/global/pid/MergeCherenkovParticleID_factory.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/global/pid/MergeCherenkovParticleID_factory.cc",
+  "output": "src/global/pid/CMakeFiles/pid_plugin.dir/MergeCherenkovParticleID_factory.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/global/pid",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dpid_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/pid_plugin.dir/RichTrack_factory.cc.o -c /home/tsai/eic/EICrecon.src/src/global/pid/RichTrack_factory.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/global/pid/RichTrack_factory.cc",
+  "output": "src/global/pid/CMakeFiles/pid_plugin.dir/RichTrack_factory.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/global/pid",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dpid_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -I/home/tsai/eic/EICrecon.src/src/algorithms/tracking -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/pid_plugin.dir/pid.cc.o -c /home/tsai/eic/EICrecon.src/src/global/pid/pid.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/global/pid/pid.cc",
+  "output": "src/global/pid/CMakeFiles/pid_plugin.dir/pid.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/global/beam",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dbeam_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/beam_plugin.dir/beam.cc.o -c /home/tsai/eic/EICrecon.src/src/global/beam/beam.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/global/beam/beam.cc",
+  "output": "src/global/beam/CMakeFiles/beam_plugin.dir/beam.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/tests/algorithms_test",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIE -o CMakeFiles/algorithms_test.dir/algorithmsInit.cc.o -c /home/tsai/eic/EICrecon.src/src/tests/algorithms_test/algorithmsInit.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/tests/algorithms_test/algorithmsInit.cc",
+  "output": "src/tests/algorithms_test/CMakeFiles/algorithms_test.dir/algorithmsInit.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/tests/algorithms_test",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIE -o CMakeFiles/algorithms_test.dir/calorimetry_CalorimeterIslandCluster.cc.o -c /home/tsai/eic/EICrecon.src/src/tests/algorithms_test/calorimetry_CalorimeterIslandCluster.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/tests/algorithms_test/calorimetry_CalorimeterIslandCluster.cc",
+  "output": "src/tests/algorithms_test/CMakeFiles/algorithms_test.dir/calorimetry_CalorimeterIslandCluster.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/tests/algorithms_test",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIE -o CMakeFiles/algorithms_test.dir/calorimetry_CalorimeterHitDigi.cc.o -c /home/tsai/eic/EICrecon.src/src/tests/algorithms_test/calorimetry_CalorimeterHitDigi.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/tests/algorithms_test/calorimetry_CalorimeterHitDigi.cc",
+  "output": "src/tests/algorithms_test/CMakeFiles/algorithms_test.dir/calorimetry_CalorimeterHitDigi.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/tests/algorithms_test",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIE -o CMakeFiles/algorithms_test.dir/calorimetry_HEXPLIT.cc.o -c /home/tsai/eic/EICrecon.src/src/tests/algorithms_test/calorimetry_HEXPLIT.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/tests/algorithms_test/calorimetry_HEXPLIT.cc",
+  "output": "src/tests/algorithms_test/CMakeFiles/algorithms_test.dir/calorimetry_HEXPLIT.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/tests/algorithms_test",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIE -o CMakeFiles/algorithms_test.dir/pid_MergeTracks.cc.o -c /home/tsai/eic/EICrecon.src/src/tests/algorithms_test/pid_MergeTracks.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/tests/algorithms_test/pid_MergeTracks.cc",
+  "output": "src/tests/algorithms_test/CMakeFiles/algorithms_test.dir/pid_MergeTracks.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/tests/algorithms_test",
+  "command": "/usr/bin/c++ -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DDISABLE_ROOT_IO -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /home/tsai/eic/podio/include -isystem /usr/local/include/root -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -O3 -DNDEBUG -std=c++20 -fPIE -o CMakeFiles/algorithms_test.dir/pid_MergeParticleID.cc.o -c /home/tsai/eic/EICrecon.src/src/tests/algorithms_test/pid_MergeParticleID.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/tests/algorithms_test/pid_MergeParticleID.cc",
+  "output": "src/tests/algorithms_test/CMakeFiles/algorithms_test.dir/pid_MergeParticleID.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/tests/omnifactory_test",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/home/tsai/eic/EICrecon.build -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -O3 -DNDEBUG -std=c++20 -fPIE -o CMakeFiles/omnifactory_test.dir/JOmniFactoryTests.cc.o -c /home/tsai/eic/EICrecon.src/src/tests/omnifactory_test/JOmniFactoryTests.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/tests/omnifactory_test/JOmniFactoryTests.cc",
+  "output": "src/tests/omnifactory_test/CMakeFiles/omnifactory_test.dir/JOmniFactoryTests.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/tests/reco_test",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dreco_test_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/reco_test_plugin.dir/GlobalReconstructionTest_processor.cc.o -c /home/tsai/eic/EICrecon.src/src/tests/reco_test/GlobalReconstructionTest_processor.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/tests/reco_test/GlobalReconstructionTest_processor.cc",
+  "output": "src/tests/reco_test/CMakeFiles/reco_test_plugin.dir/GlobalReconstructionTest_processor.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/tests/reco_test",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dreco_test_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/reco_test_plugin.dir/reco_test.cc.o -c /home/tsai/eic/EICrecon.src/src/tests/reco_test/reco_test.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/tests/reco_test/reco_test.cc",
+  "output": "src/tests/reco_test/CMakeFiles/reco_test_plugin.dir/reco_test.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/tests/tracking_test",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtracking_test_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/tracking_test_plugin.dir/TrackingTest_processor.cc.o -c /home/tsai/eic/EICrecon.src/src/tests/tracking_test/TrackingTest_processor.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/tests/tracking_test/TrackingTest_processor.cc",
+  "output": "src/tests/tracking_test/CMakeFiles/tracking_test_plugin.dir/TrackingTest_processor.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/tests/tracking_test",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtracking_test_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/tracking_test_plugin.dir/tracking_test.cc.o -c /home/tsai/eic/EICrecon.src/src/tests/tracking_test/tracking_test.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/tests/tracking_test/tracking_test.cc",
+  "output": "src/tests/tracking_test/CMakeFiles/tracking_test_plugin.dir/tracking_test.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/tests/track_propagation_test",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtrack_propagation_test_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/track_propagation_test_plugin.dir/TrackPropagationTest_processor.cc.o -c /home/tsai/eic/EICrecon.src/src/tests/track_propagation_test/TrackPropagationTest_processor.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/tests/track_propagation_test/TrackPropagationTest_processor.cc",
+  "output": "src/tests/track_propagation_test/CMakeFiles/track_propagation_test_plugin.dir/TrackPropagationTest_processor.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/tests/track_propagation_test",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dtrack_propagation_test_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/track_propagation_test_plugin.dir/track_propagation_test.cc.o -c /home/tsai/eic/EICrecon.src/src/tests/track_propagation_test/track_propagation_test.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/tests/track_propagation_test/track_propagation_test.cc",
+  "output": "src/tests/track_propagation_test/CMakeFiles/track_propagation_test_plugin.dir/track_propagation_test.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/tests/geometry_navigation_test",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgeometry_navigation_test_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/geometry_navigation_test_plugin.dir/GeometryNavigationSteps_processor.cc.o -c /home/tsai/eic/EICrecon.src/src/tests/geometry_navigation_test/GeometryNavigationSteps_processor.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/tests/geometry_navigation_test/GeometryNavigationSteps_processor.cc",
+  "output": "src/tests/geometry_navigation_test/CMakeFiles/geometry_navigation_test_plugin.dir/GeometryNavigationSteps_processor.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/tests/geometry_navigation_test",
+  "command": "/usr/bin/c++ -DACTS_ENABLE_LOG_FAILURE_THRESHOLD -DACTS_LOG_FAILURE_THRESHOLD=MAX -DActs_VERSION_MAJOR=31 -DBOOST_SPIRIT_USE_PHOENIX_V3 -DDD4HEP_USE_XERCESC -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgeometry_navigation_test_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.build/include -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/xerces-c-3.2.4-dw2nhv4nc32u3piqwhgg7ds32i2qbahv/include -isystem /usr/local/include/eigen3 -isystem /opt/software/linux-debian12-x86_64_v2/gcc-12.2.0/nlohmann-json-3.11.2-vrnzznoe4kuisixry4zvh3l6ydkp2niy/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/geometry_navigation_test_plugin.dir/geometry_navigation_test.cc.o -c /home/tsai/eic/EICrecon.src/src/tests/geometry_navigation_test/geometry_navigation_test.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/tests/geometry_navigation_test/geometry_navigation_test.cc",
+  "output": "src/tests/geometry_navigation_test/CMakeFiles/geometry_navigation_test_plugin.dir/geometry_navigation_test.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/utilities/dump_flags",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Ddump_flags_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/dump_flags_plugin.dir/DumpFlags_processor.cc.o -c /home/tsai/eic/EICrecon.src/src/utilities/dump_flags/DumpFlags_processor.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/utilities/dump_flags/DumpFlags_processor.cc",
+  "output": "src/utilities/dump_flags/CMakeFiles/dump_flags_plugin.dir/DumpFlags_processor.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/utilities/dump_flags",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Ddump_flags_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/dump_flags_plugin.dir/dump_flags.cc.o -c /home/tsai/eic/EICrecon.src/src/utilities/dump_flags/dump_flags.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/utilities/dump_flags/dump_flags.cc",
+  "output": "src/utilities/dump_flags/CMakeFiles/dump_flags_plugin.dir/dump_flags.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/utilities/eicrecon",
+  "command": "/usr/bin/c++ -DEICRECON_APP_VERSION=v1.12.0-5-g92c42e58 -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -I/home/tsai/eic/EICrecon.build/src/utilities/eicrecon -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.src/src/utilities/eicrecon -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -O3 -DNDEBUG -std=c++20 -fPIE -o CMakeFiles/eicrecon.dir/eicrecon.cc.o -c /home/tsai/eic/EICrecon.src/src/utilities/eicrecon/eicrecon.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/utilities/eicrecon/eicrecon.cc",
+  "output": "src/utilities/eicrecon/CMakeFiles/eicrecon.dir/eicrecon.cc.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/utilities/eicrecon",
+  "command": "/usr/bin/c++ -DEICRECON_APP_VERSION=v1.12.0-5-g92c42e58 -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -I/home/tsai/eic/EICrecon.build/src/utilities/eicrecon -I/home/tsai/eic/EICrecon.src/src -I/home/tsai/eic/EICrecon.src/src/utilities/eicrecon -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -O3 -DNDEBUG -std=c++20 -fPIE -o CMakeFiles/eicrecon.dir/eicrecon_cli.cpp.o -c /home/tsai/eic/EICrecon.src/src/utilities/eicrecon/eicrecon_cli.cpp",
+  "file": "/home/tsai/eic/EICrecon.src/src/utilities/eicrecon/eicrecon_cli.cpp",
+  "output": "src/utilities/eicrecon/CMakeFiles/eicrecon.dir/eicrecon_cli.cpp.o"
+},
+{
+  "directory": "/home/tsai/eic/EICrecon.build/src/utilities/janatop",
+  "command": "/usr/bin/c++ -DFMT_SHARED -DHAVE_PODIO -DJANA2_HAVE_PODIO=1 -DJANA2_HAVE_ROOT=1 -DPODIO_ENABLE_RNTUPLE=0 -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Djanatop_plugin_EXPORTS -I/home/tsai/eic/EICrecon.src/src -isystem /home/tsai/eic/JANA2/include -isystem /usr/local/include/root -isystem /home/tsai/eic/podio/include -O3 -DNDEBUG -std=c++20 -fPIC -o CMakeFiles/janatop_plugin.dir/janatop.cc.o -c /home/tsai/eic/EICrecon.src/src/utilities/janatop/janatop.cc",
+  "file": "/home/tsai/eic/EICrecon.src/src/utilities/janatop/janatop.cc",
+  "output": "src/utilities/janatop/CMakeFiles/janatop_plugin.dir/janatop.cc.o"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/c++ -Weffc++ -pedantic -Wextra -Wall -fdiagnostics-color=auto -Wdeprecated -Wno-long-long -Wformat-security -Wshadow           -O2 -g -DNDEBUG CMakeFiles/ostream_operator.dir/ostream_operator.cpp.o -o ostream_operator  -Wl,-rpath,/home/tsai/eic/podio.build/tests:/home/tsai/eic/podio.build/src libExtensionDataModel.so libTestDataModel.so ../src/libpodio.so 

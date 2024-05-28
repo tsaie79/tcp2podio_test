@@ -1,0 +1,5 @@
+if(EXISTS "/home/tsai/eic/podio.build/tests/unittests/unittest_podio_tests-b12d07c.cmake")
+  include("/home/tsai/eic/podio.build/tests/unittests/unittest_podio_tests-b12d07c.cmake")
+else()
+  add_test(unittest_podio_NOT_BUILT-b12d07c unittest_podio_NOT_BUILT-b12d07c)
+endif()

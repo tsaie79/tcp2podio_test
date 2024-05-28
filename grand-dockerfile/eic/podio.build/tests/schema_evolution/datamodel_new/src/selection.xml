@@ -1,0 +1,183 @@
+
+<lcgdict>
+    <selection>
+
+        <!-- components -->
+        <class name="SimpleStruct" ClassVersion="3"/>
+        <class name="std::vector<SimpleStruct>" ClassVersion="3"/>
+        <class name="NotSoSimpleStruct" ClassVersion="3"/>
+        <class name="std::vector<NotSoSimpleStruct>" ClassVersion="3"/>
+        <class name="ex2::NamespaceStruct" ClassVersion="3"/>
+        <class name="std::vector<ex2::NamespaceStruct>" ClassVersion="3"/>
+        <class name="ex2::NamespaceInNamespaceStruct" ClassVersion="3"/>
+        <class name="std::vector<ex2::NamespaceInNamespaceStruct>" ClassVersion="3"/>
+        <class name="StructWithFixedWithTypes" ClassVersion="3"/>
+        <class name="std::vector<StructWithFixedWithTypes>" ClassVersion="3"/>
+        <class name="CompWithInit" ClassVersion="3"/>
+        <class name="std::vector<CompWithInit>" ClassVersion="3"/>
+
+        <!-- datatypes -->
+        <class name="EventInfoNewNameData" ClassVersion="3"/>
+        <class name="std::vector<EventInfoNewNameData>" ClassVersion="3"/>
+        <class name="MutableEventInfoNewName" ClassVersion="3"/>
+
+        <class name="EventInfoNewName" ClassVersion="3"/>
+
+        <class name="EventInfoNewNameCollection" ClassVersion="3"/>
+
+        <class name="ExampleHitData" ClassVersion="3"/>
+        <class name="std::vector<ExampleHitData>" ClassVersion="3"/>
+        <class name="MutableExampleHit" ClassVersion="3"/>
+
+        <class name="ExampleHit" ClassVersion="3"/>
+
+        <class name="ExampleHitCollection" ClassVersion="3"/>
+
+        <class name="ExampleMCData" ClassVersion="3"/>
+        <class name="std::vector<ExampleMCData>" ClassVersion="3"/>
+        <class name="MutableExampleMC" ClassVersion="3"/>
+
+        <class name="ExampleMC" ClassVersion="3"/>
+
+        <class name="ExampleMCCollection" ClassVersion="3"/>
+
+        <class name="ExampleClusterData" ClassVersion="3"/>
+        <class name="std::vector<ExampleClusterData>" ClassVersion="3"/>
+        <class name="MutableExampleCluster" ClassVersion="3"/>
+
+        <class name="ExampleCluster" ClassVersion="3"/>
+
+        <class name="ExampleClusterCollection" ClassVersion="3"/>
+
+        <class name="ExampleReferencingTypeData" ClassVersion="3"/>
+        <class name="std::vector<ExampleReferencingTypeData>" ClassVersion="3"/>
+        <class name="MutableExampleReferencingType" ClassVersion="3"/>
+
+        <class name="ExampleReferencingType" ClassVersion="3"/>
+
+        <class name="ExampleReferencingTypeCollection" ClassVersion="3"/>
+
+        <class name="ExampleWithVectorMemberData" ClassVersion="3"/>
+        <class name="std::vector<ExampleWithVectorMemberData>" ClassVersion="3"/>
+        <class name="MutableExampleWithVectorMember" ClassVersion="3"/>
+
+        <class name="ExampleWithVectorMember" ClassVersion="3"/>
+
+        <class name="ExampleWithVectorMemberCollection" ClassVersion="3"/>
+
+        <class name="ExampleWithOneRelationData" ClassVersion="3"/>
+        <class name="std::vector<ExampleWithOneRelationData>" ClassVersion="3"/>
+        <class name="MutableExampleWithOneRelation" ClassVersion="3"/>
+
+        <class name="ExampleWithOneRelation" ClassVersion="3"/>
+
+        <class name="ExampleWithOneRelationCollection" ClassVersion="3"/>
+
+        <class name="ExampleWithArrayComponentData" ClassVersion="3"/>
+        <class name="std::vector<ExampleWithArrayComponentData>" ClassVersion="3"/>
+        <class name="MutableExampleWithArrayComponent" ClassVersion="3"/>
+
+        <class name="ExampleWithArrayComponent" ClassVersion="3"/>
+
+        <class name="ExampleWithArrayComponentCollection" ClassVersion="3"/>
+
+        <class name="ExampleWithComponentData" ClassVersion="3"/>
+        <class name="std::vector<ExampleWithComponentData>" ClassVersion="3"/>
+        <class name="MutableExampleWithComponent" ClassVersion="3"/>
+
+        <class name="ExampleWithComponent" ClassVersion="3"/>
+
+        <class name="ExampleWithComponentCollection" ClassVersion="3"/>
+
+        <class name="ExampleForCyclicDependency1Data" ClassVersion="3"/>
+        <class name="std::vector<ExampleForCyclicDependency1Data>" ClassVersion="3"/>
+        <class name="MutableExampleForCyclicDependency1" ClassVersion="3"/>
+
+        <class name="ExampleForCyclicDependency1" ClassVersion="3"/>
+
+        <class name="ExampleForCyclicDependency1Collection" ClassVersion="3"/>
+
+        <class name="ExampleForCyclicDependency2Data" ClassVersion="3"/>
+        <class name="std::vector<ExampleForCyclicDependency2Data>" ClassVersion="3"/>
+        <class name="MutableExampleForCyclicDependency2" ClassVersion="3"/>
+
+        <class name="ExampleForCyclicDependency2" ClassVersion="3"/>
+
+        <class name="ExampleForCyclicDependency2Collection" ClassVersion="3"/>
+
+        <class name="ex42::ExampleWithNamespaceData" ClassVersion="3"/>
+        <class name="std::vector<ex42::ExampleWithNamespaceData>" ClassVersion="3"/>
+        <class name="ex42::MutableExampleWithNamespace" ClassVersion="3"/>
+
+        <class name="ex42::ExampleWithNamespace" ClassVersion="3"/>
+
+        <class name="ex42::ExampleWithNamespaceCollection" ClassVersion="3"/>
+
+        <class name="ex42::ExampleWithARelationData" ClassVersion="3"/>
+        <class name="std::vector<ex42::ExampleWithARelationData>" ClassVersion="3"/>
+        <class name="ex42::MutableExampleWithARelation" ClassVersion="3"/>
+
+        <class name="ex42::ExampleWithARelation" ClassVersion="3"/>
+
+        <class name="ex42::ExampleWithARelationCollection" ClassVersion="3"/>
+
+        <class name="ExampleWithDifferentNamespaceRelationsData" ClassVersion="3"/>
+        <class name="std::vector<ExampleWithDifferentNamespaceRelationsData>" ClassVersion="3"/>
+        <class name="MutableExampleWithDifferentNamespaceRelations" ClassVersion="3"/>
+
+        <class name="ExampleWithDifferentNamespaceRelations" ClassVersion="3"/>
+
+        <class name="ExampleWithDifferentNamespaceRelationsCollection" ClassVersion="3"/>
+
+        <class name="ExampleWithArrayData" ClassVersion="3"/>
+        <class name="std::vector<ExampleWithArrayData>" ClassVersion="3"/>
+        <class name="MutableExampleWithArray" ClassVersion="3"/>
+
+        <class name="ExampleWithArray" ClassVersion="3"/>
+
+        <class name="ExampleWithArrayCollection" ClassVersion="3"/>
+
+        <class name="ExampleWithFixedWidthIntegersData" ClassVersion="3"/>
+        <class name="std::vector<ExampleWithFixedWidthIntegersData>" ClassVersion="3"/>
+        <class name="MutableExampleWithFixedWidthIntegers" ClassVersion="3"/>
+
+        <class name="ExampleWithFixedWidthIntegers" ClassVersion="3"/>
+
+        <class name="ExampleWithFixedWidthIntegersCollection" ClassVersion="3"/>
+
+        <class name="ExampleWithUserInitData" ClassVersion="3"/>
+        <class name="std::vector<ExampleWithUserInitData>" ClassVersion="3"/>
+        <class name="MutableExampleWithUserInit" ClassVersion="3"/>
+
+        <class name="ExampleWithUserInit" ClassVersion="3"/>
+
+        <class name="ExampleWithUserInitCollection" ClassVersion="3"/>
+
+        <class name="ExampleOfDroppedTypeData" ClassVersion="3"/>
+        <class name="std::vector<ExampleOfDroppedTypeData>" ClassVersion="3"/>
+        <class name="MutableExampleOfDroppedType" ClassVersion="3"/>
+
+        <class name="ExampleOfDroppedType" ClassVersion="3"/>
+
+        <class name="ExampleOfDroppedTypeCollection" ClassVersion="3"/>
+
+
+        <!-- previous schema components and pods -->
+        <class name="ex42::ExampleWithNamespacev2" ClassVersion="3"/>
+
+        <class name="ExampleWithUserInitv2" ClassVersion="3"/>
+
+        <class name="ex2::NamespaceStructv2" ClassVersion="3"/>
+
+        <class name="ExampleWithArrayv2" ClassVersion="3"/>
+
+
+    </selection>
+
+        <ioread sourceClass="ex2::NamespaceStruct" targetClass="ex2::NamespaceStruct" version="[2]" target="y_new" source="int y">
+        <![CDATA[
+	     y_new = onfile.y;
+        ]]>
+        </ioread>
+
+</lcgdict>

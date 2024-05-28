@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ContainedType.cc.o"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ContainedType.cc.o.d"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ContainedTypeCollection.cc.o"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ContainedTypeCollection.cc.o.d"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ContainedTypeCollectionData.cc.o"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ContainedTypeCollectionData.cc.o.d"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ContainedTypeObj.cc.o"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ContainedTypeObj.cc.o.d"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExtComponent.cc.o"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExtComponent.cc.o.d"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExternalComponentType.cc.o"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExternalComponentType.cc.o.d"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExternalComponentTypeCollection.cc.o"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExternalComponentTypeCollection.cc.o.d"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExternalComponentTypeCollectionData.cc.o"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExternalComponentTypeCollectionData.cc.o.d"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExternalComponentTypeObj.cc.o"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExternalComponentTypeObj.cc.o.d"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExternalRelationType.cc.o"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExternalRelationType.cc.o.d"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExternalRelationTypeCollection.cc.o"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExternalRelationTypeCollection.cc.o.d"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExternalRelationTypeCollectionData.cc.o"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExternalRelationTypeCollectionData.cc.o.d"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExternalRelationTypeObj.cc.o"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/ExternalRelationTypeObj.cc.o.d"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/MutableContainedType.cc.o"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/MutableContainedType.cc.o.d"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/MutableExternalComponentType.cc.o"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/MutableExternalComponentType.cc.o.d"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/MutableExternalRelationType.cc.o"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/MutableExternalRelationType.cc.o.d"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/PolarVector.cc.o"
+  "CMakeFiles/ExtensionDataModel.dir/extension_model/src/PolarVector.cc.o.d"
+  "libExtensionDataModel.pdb"
+  "libExtensionDataModel.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/ExtensionDataModel.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

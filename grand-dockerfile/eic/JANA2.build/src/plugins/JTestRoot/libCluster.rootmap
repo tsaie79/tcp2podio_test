@@ -1,0 +1,4 @@
+[ libCluster.so ]
+# List of selected classes
+class Cluster
+header JTestRoot/Cluster.h
