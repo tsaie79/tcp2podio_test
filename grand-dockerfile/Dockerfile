@@ -5,7 +5,7 @@ FROM eicweb/jug_xl:nightly
 WORKDIR /app
 
 # Source /opt/detector/epic-main/setup.sh
-RUN echo ". /opt/detector/epic-main/setup.sh" >> /etc/profile
+RUN echo ". /opt/detector/epic-main/bin/thisepic.sh" >> /etc/profile
 
 # Set environment variables
 ENV podio_ROOT /app/podio
