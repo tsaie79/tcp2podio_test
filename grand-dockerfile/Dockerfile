@@ -53,3 +53,5 @@ RUN cmake -S SRO-RTDP/src/utilities/cpp/podiostream -B podiostream.build \
     -DCMAKE_CXX_STANDARD=20 && \
     cmake --build podiostream.build && \
     echo "export JANA_PLUGIN_PATH=${PWD}/podiostream.build:\$JANA_PLUGIN_PATH" >> /etc/profile
+
+CMD source /etc/profile && /bin/bash
