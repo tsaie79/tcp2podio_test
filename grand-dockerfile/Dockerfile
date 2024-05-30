@@ -61,4 +61,4 @@ COPY run-EICrecon.bash /app/run-EICrecon.bash
 RUN chmod +x /app/run-EICrecon.bash
 
 # # Set the entrypoint
-# CMD source /etc/profile && /bin/bash
+CMD source /etc/profile && /bin/bash
