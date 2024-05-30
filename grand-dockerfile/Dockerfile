@@ -55,10 +55,24 @@ RUN cmake -S SRO-RTDP/src/utilities/cpp/podiostream -B podiostream.build \
     echo "export JANA_PLUGIN_PATH=${PWD}/podiostream.build:\$JANA_PLUGIN_PATH" >> /etc/profile
 
 
+
+# # COPY run-EICrecon.bash /app/run-EICrecon.bash
 # COPY run-EICrecon.bash /app/run-EICrecon.bash
-COPY run-EICrecon.bash /app/run-EICrecon.bash
-# make it executable
-RUN chmod +x /app/run-EICrecon.bash
+# # make it executable
+# RUN chmod +x /app/run-EICrecon.bash
+
+
+
+RUN echo 'source /opt/detector/epic-main/bin/thisepic.sh\n\
+source ./EICrecon/bin/eicrecon-this.sh\n\
+source ${JANA_ROOT}/bin/jana-this.sh\n\
+export podio_ROOT=${PWD}/podio\n\
+export LD_LIBRARY_PATH=${podio_ROOT}/lib:${LD_LIBRARY_PATH}\n\
+export SIMFILE=${PWD}/simout.100.edm4hep.root\n\
+export JANA_ROOT=${PWD}/JANA2\n\
+export LD_LIBRARY_PATH=${JANA_ROOT}/lib:${LD_LIBRARY_PATH}\n\
+export JANA_PLUGIN_PATH=${PWD}/podiostream.build:${JANA_PLUGIN_PATH}\n\
+export DETECTOR_PATH=/opt/detector/epic-main/share/epic' >> /etc/profile
 
 # # Set the entrypoint
 CMD source /etc/profile && /bin/bash
