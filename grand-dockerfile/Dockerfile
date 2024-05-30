@@ -8,10 +8,12 @@ WORKDIR /app
 RUN echo "source /opt/detector/epic-main/bin/thisepic.sh" >> /etc/profile
 
 # Set environment variables
+ENV JANA_ROOT /app/JANA2
 ENV podio_ROOT /app/podio
 ENV SIMFILE /app/simout.100.edm4hep.root
 ENV DETECTOR /opt/detector/epic-main/share/epic
-
+RUN echo "source ${PWD}/EICrecon/bin/eicrecon-this.sh" >> /etc/profile
+RUN echo "source ${JANA_ROOT}/bin/jana-this.sh" >> /etc/profile
 
 # Clone the repository and build podio
 RUN git clone https://github.com/faustus123/podio -b davidl_RootReader_TDirectory podio.src && \
@@ -27,10 +29,7 @@ RUN git clone https://github.com/JeffersonLab/SRO-RTDP && \
 
 COPY simout.100.edm4hep.root /app/simout.100.edm4hep.root
 
-RUN echo "source ${PWD}/EICrecon/bin/eicrecon-this.sh" >> /etc/profile
-
 # Clone the repository and build JANA2
-ENV JANA_ROOT /app/JANA2
 RUN git clone https://github.com/JeffersonLab/JANA2 JANA2.src && \
     cmake -S JANA2.src -B JANA2.build \
         -DUSE_PODIO=1 \
@@ -40,7 +39,6 @@ RUN git clone https://github.com/JeffersonLab/JANA2 JANA2.src && \
         -DCMAKE_CXX_STANDARD=20 && \
     cmake --build JANA2.build --target install -j32 && \
     echo "export LD_LIBRARY_PATH=${JANA_ROOT}/lib:\$LD_LIBRARY_PATH" >> /etc/profile && \
-    echo "source ${JANA_ROOT}/bin/jana-this.sh" >> /etc/profile
 
 # Clone the repository and build EICrecon
 RUN git clone https://github.com/eic/EICrecon EICrecon.src && \
