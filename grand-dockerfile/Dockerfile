@@ -55,14 +55,10 @@ RUN cmake -S SRO-RTDP/src/utilities/cpp/podiostream -B podiostream.build \
     echo "export JANA_PLUGIN_PATH=${PWD}/podiostream.build:\$JANA_PLUGIN_PATH" >> /etc/profile
 
 
-# set environment variables
-ENV SIMFILE=/app/simout.100.edm4hep.root
-ENV DETECTOR_PATH=/opt/detector/epic-main/share/epic
-
-
-
 # COPY run-EICrecon.bash /app/run-EICrecon.bash
 COPY run-EICrecon.bash /app/run-EICrecon.bash
+# make it executable
+RUN chmod +x /app/run-EICrecon.bash
 
 # # Set the entrypoint
 # CMD source /etc/profile && /bin/bash
