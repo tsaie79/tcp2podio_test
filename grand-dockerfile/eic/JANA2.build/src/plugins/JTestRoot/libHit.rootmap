@@ -1,4 +1,0 @@
-[ libHit.so ]
-# List of selected classes
-class Hit
-header JTestRoot/Hit.h

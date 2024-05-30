@@ -1,4 +1,0 @@
-[ libjv_mainframe.so ]
-# List of selected classes
-class jv_mainframe
-header janaview/jv_mainframe.h

@@ -1,7 +1,0 @@
-module "podio_plugin" {
-  requires cplusplus
-  module "/home/tsai/eic/EICrecon.build/include/services/io/podio/datamodel_includes.h" { header "/home/tsai/eic/EICrecon.build/include/services/io/podio/datamodel_includes.h" export * }
-  link "libpodio_plugin.so"
-  export *
-}
-
