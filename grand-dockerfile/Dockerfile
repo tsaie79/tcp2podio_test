@@ -59,5 +59,10 @@ RUN cmake -S SRO-RTDP/src/utilities/cpp/podiostream -B podiostream.build \
 ENV SIMFILE=/app/simout.100.edm4hep.root
 ENV DETECTOR_PATH=/opt/detector/epic-main/share/epic
 
-# Set the entrypoint
-CMD source /etc/profile && /bin/bash
+
+
+# COPY run-EICrecon.bash /app/run-EICrecon.bash
+COPY run-EICrecon.bash /app/run-EICrecon.bash
+
+# # Set the entrypoint
+# CMD source /etc/profile && /bin/bash
