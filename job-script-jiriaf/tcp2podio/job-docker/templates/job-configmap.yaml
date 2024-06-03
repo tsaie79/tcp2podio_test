@@ -28,7 +28,7 @@ data:
 
 
     # Pull and run the docker image
-    docker pull {{ .Values.Deployment.ersap_settings.image }}
+    docker pull {{ .Values.Deployment.job.image }}
     docker run -d --rm --net=host -e WORKDIR=$HOME /bin/bash -c {{ .Values.Deployment.job.cmd }} 
 
     # Get the ID of the last run container
