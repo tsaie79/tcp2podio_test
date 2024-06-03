@@ -6,7 +6,7 @@ Deployment:
 
   job:
     image: jlabtsai/eic:latest
-    cmd: "/bin/bash -c /app/run-EICrecon.bash > /app/EICrecon.log 2>&1"
+    cmd: "/bin/bash -c /app/run-EICrecon.bash > /app/out"
 
 
   prometheus_settings:
