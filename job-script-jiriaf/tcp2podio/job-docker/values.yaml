@@ -18,18 +18,10 @@ Deployment:
 Service:
 - name: jrm-exporter
   protocol: TCP
-  port:  10000
-  originalPort: 10000
+  port:  1990
+  originalPort: 1990
   path: /metrics/resource
   interval: 15s
-- name: process-exporter
-  node: "0"
-  protocol: TCP
-  port:  20000
-  originalPort: 1776
-  path: /metrics
-  interval: 15s
-
 
 PersistentVolume:
   node: jiriaf2302-control-plane
