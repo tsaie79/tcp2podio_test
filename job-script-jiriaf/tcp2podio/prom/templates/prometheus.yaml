@@ -31,7 +31,7 @@ spec:
     matchLabels:
       app: {{ .Values.Deployment.name}}
   version: 2.32.1
-  retention: 365d
+  retention: 720d
   storage:
     volumeClaimTemplate:
       spec:
