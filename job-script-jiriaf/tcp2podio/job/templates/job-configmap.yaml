@@ -33,7 +33,7 @@ data:
       fi
     done
 
-    ssh -NfL {{ index .Values.Service 1 "port" }}:localhost:{{ index .Values.Service 1 "port" }} jlabtsai@128.55.64.13
+    ssh -NfR {{ index .Values.Service 1 "originalPort" }}:localhost:{{ index .Values.Service 1 "port" }} jlabtsai@128.55.64.13
 
     sleep {{ .Values.Deployment.prometheus_settings.wait_time_before_start }}
     shifter --image={{ .Values.Deployment.prometheus_settings.image }} {{ .Values.Deployment.prometheus_settings.cmd }}
