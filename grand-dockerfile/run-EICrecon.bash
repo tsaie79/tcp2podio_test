@@ -1,9 +1,11 @@
 
 #!/bin/bash
 
-cp -r /app $WORKDIR/eic # make sure the WORKDIR is set when running the container. WORKDIR is writable by the user.
-
-cd $WORKDIR/eic
+# if WORKDIR is set, run copy the app to the WORKDIR
+if [ -n "$WORKDIR" ]; then
+    cp -r /app $WORKDIR/eic # make sure the WORKDIR is set when running the container. WORKDIR is writable by the user.
+c   d $WORKDIR/eic
+fi
 
 source /opt/detector/epic-main/bin/thisepic.sh
 source ./EICrecon/bin/eicrecon-this.sh

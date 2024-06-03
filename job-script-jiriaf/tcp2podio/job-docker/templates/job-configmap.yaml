@@ -41,7 +41,7 @@ data:
     sleep 10
 
     # Get the process group ID (PGID) of the process in the container with "UseNUMA" in its command
-    export PGID=$(docker top $CONTAINER_ID -eo pid,cmd | grep UseNUMA | awk '{print $1}')
+    export PGID=$(docker top $CONTAINER_ID -eo pid,cmd | grep eic | awk '{print $1}')
 
     # Store the PGID for later use
     echo $PGID > $POD_ROOT_PATH/containers/wf/pgid
