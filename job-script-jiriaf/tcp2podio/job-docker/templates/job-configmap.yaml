@@ -48,7 +48,7 @@ data:
     echo "PGID: $PGID"
 
     # Keep the process alive for the specified duration
-    sleep $1
+    sleep $JOB_ALIVE_TIME
 
     # Kill the container
     docker kill $CONTAINER_ID

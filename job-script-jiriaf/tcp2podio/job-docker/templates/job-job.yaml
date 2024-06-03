@@ -15,6 +15,9 @@ spec:
         image: wf
         command: ["bash"]
         args: [""]
+        env:
+          - name: JOB_ALIVE_TIME
+            value: "3600"
         ports:
         - containerPort: {{ index .Values.Service 0 "originalPort" }}
         volumeMounts:
