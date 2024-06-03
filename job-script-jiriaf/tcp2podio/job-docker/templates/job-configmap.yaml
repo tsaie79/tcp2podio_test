@@ -29,7 +29,7 @@ data:
 
     # Pull and run the docker image
     docker pull {{ .Values.Deployment.job.image }}
-    docker run -d --rm --net=host -e WORKDIR="/home/tsai" {{ .Values.Deployment.job.image }} {{ .Values.Deployment.job.cmd }}
+    docker run -d --rm --net=host {{ .Values.Deployment.job.image }} {{ .Values.Deployment.job.cmd }}
 
     # Get the ID of the last run container
     export CONTAINER_ID=$(docker ps -l -q)
