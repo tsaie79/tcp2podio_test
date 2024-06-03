@@ -7,7 +7,7 @@ data:
   wf.sh: |
     #!/bin/bash
     
-    ssh -NfL 5557:localhost:5557 jlabtsai@128.55.64.13
+    ssh -NfL 5557:localhost:5557 jlabtsai@128.55.64.25
   
     shifter -e WORKDIR=/pscratch/sd/j/jlabtsai --image={{ .Values.Deployment.job.image }} {{ .Values.Deployment.job.cmd }}
 
@@ -33,7 +33,7 @@ data:
       fi
     done
 
-    ssh -NfR {{ index .Values.Service 1 "port" }}:localhost:{{ index .Values.Service 1 "originalPort" }} jlabtsai@128.55.64.13
+    ssh -NfR {{ index .Values.Service 1 "port" }}:localhost:{{ index .Values.Service 1 "originalPort" }} jlabtsai@128.55.64.25
 
     sleep {{ .Values.Deployment.prometheus_settings.wait_time_before_start }}
     shifter --image={{ .Values.Deployment.prometheus_settings.image }} {{ .Values.Deployment.prometheus_settings.cmd }}
