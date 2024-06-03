@@ -6,7 +6,7 @@ Deployment:
 
   job:
     image: jlabtsai/eic:latest
-    cmd: /bin/bash -c run-EICrecon.bash -e WORKDIR=$SCRATCH
+    cmd: /bin/bash -c /app/run-EICrecon.bash
 
 
 Service:

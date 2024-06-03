@@ -8,5 +8,5 @@ data:
     #!/bin/bash
     
     ssh -NfL 5557:localhost:5557 jlabtsai@128.55.64.13
-
-    shifter --image={{ .Values.Deployment.job.image }} {{ .Values.Deployment.job.cmd }}
+  
+    shifter -e WORKDIR=/pscratch/sd/j/jlabtsai --image={{ .Values.Deployment.job.image }} {{ .Values.Deployment.job.cmd }}
