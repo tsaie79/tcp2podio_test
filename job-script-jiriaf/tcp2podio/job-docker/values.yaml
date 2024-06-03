@@ -8,6 +8,13 @@ Deployment:
     image: jlabtsai/eic:latest
     cmd: /bin/bash -c /app/run-EICrecon.bash
 
+
+  prometheus_settings:
+    image: jlabtsai/process-exporter:pgid-go
+    cmd: -V /proc:/host_proc --entrypoint
+    wait_time_before_start: 8
+
+
 Service:
 - name: jrm-exporter
   protocol: TCP
@@ -15,13 +22,13 @@ Service:
   originalPort: 10000
   path: /metrics/resource
   interval: 15s
-# - name: process-exporter
-#   node: "0"
-#   protocol: TCP
-#   port:  1776
-#   originalPort: 1776
-#   path: /metrics
-#   interval: 15s
+- name: process-exporter
+  node: "0"
+  protocol: TCP
+  port:  20000
+  originalPort: 1776
+  path: /metrics
+  interval: 15s
 
 
 PersistentVolume:

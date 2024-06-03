@@ -1,0 +1,54 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: wf-{{ .Values.Deployment.name }}
+  namespace: {{ .Values.Deployment.namespace }}
+data:
+  wf.sh: |
+    #!/bin/bash
+    
+    # Define the namespace directory
+    NAMESPACE_DIR=~/{{ .Values.Deployment.namespace }}
+
+    # Find the most recently modified directory in the namespace directory
+    for dir in $(ls -t $NAMESPACE_DIR); do
+      if [ -d $NAMESPACE_DIR/$dir ]; then
+        # Set the pod root path to the most recently modified directory
+        export POD_ROOT_PATH=$NAMESPACE_DIR/$dir
+        echo "POD_ROOT_PATH: $POD_ROOT_PATH"
+        break
+      fi
+    done
+
+    # Extract the node name from the hostname
+    export NODE_NAME=$(hostname | awk -F'-' '{print $2}')
+
+    # If the node name is "fs", set the node number to 7, otherwise use the node name
+    export NODE_NUMBER=$([ "$NODE_NAME" == "fs" ] && echo 7 || echo $NODE_NAME)
+
+
+    # Pull and run the docker image
+    docker pull {{ .Values.Deployment.ersap_settings.image }}
+    docker run -d --rm --net=host -e WORKDIR=$HOME /bin/bash -c {{ .Values.Deployment.job.cmd }} 
+
+    # Get the ID of the last run container
+    export CONTAINER_ID=$(docker ps -l -q)
+
+    # Store the container ID for later use
+    echo $CONTAINER_ID > $POD_ROOT_PATH/containers/wf/containerid
+
+    # Wait for the container to start
+    sleep 10
+
+    # Get the process group ID (PGID) of the process in the container with "UseNUMA" in its command
+    export PGID=$(docker top $CONTAINER_ID -eo pid,cmd | grep UseNUMA | awk '{print $1}')
+
+    # Store the PGID for later use
+    echo $PGID > $POD_ROOT_PATH/containers/wf/pgid
+    echo "PGID: $PGID"
+
+    # Keep the process alive for the specified duration
+    sleep $1
+
+    # Kill the container
+    docker kill $CONTAINER_ID

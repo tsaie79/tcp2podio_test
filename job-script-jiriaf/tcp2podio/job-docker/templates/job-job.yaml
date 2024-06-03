@@ -1,0 +1,52 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{ .Values.Deployment.name}}
+  namespace: {{ .Values.Deployment.namespace}}
+spec:
+  parallelism: {{ .Values.Deployment.replicas}}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.Deployment.name}}
+    spec:
+      containers:
+      - name: wf
+        image: wf
+        command: ["bash"]
+        args: [""]
+        ports:
+        - containerPort: {{ index .Values.Service 0 "originalPort" }}
+        volumeMounts:
+        - name: wf
+          mountPath: wf
+        resources:
+          limits:
+            cpu: "128"
+          requests:
+            cpu: "128"
+
+      volumes:
+      - name: wf
+        configMap:
+          name: wf-{{ .Values.Deployment.name }}
+
+      restartPolicy: OnFailure
+      nodeSelector:
+        kubernetes.io/role: agent
+      tolerations:
+      - key: "virtual-kubelet.io/provider"
+        value: "mock"
+        effect: "NoSchedule"
+
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: jiriaf.site
+                operator: In
+                values:
+                - "ejfat"
+
+      
