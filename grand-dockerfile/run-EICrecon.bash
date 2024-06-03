@@ -1,9 +1,9 @@
 
 #!/bin/bash
 
-cp -r /app $SCRATCH/eic # make sure the SCRATCH directory is writable and accessible
+cp -r /app $WORKDIR/eic # make sure the WORKDIR is set when running the container. WORKDIR is writable by the user.
 
-cd $SCRATCH/eic
+cd $WORKDIR/eic
 
 source /opt/detector/epic-main/bin/thisepic.sh
 source ./EICrecon/bin/eicrecon-this.sh
