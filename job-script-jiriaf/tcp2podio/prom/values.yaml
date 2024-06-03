@@ -1,5 +1,5 @@
 Deployment:
-  name: ersap-test4
+  name: EICrecon
   namespace: default
   replicas: 1
 
