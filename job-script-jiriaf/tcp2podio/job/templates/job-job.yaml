@@ -17,7 +17,6 @@ spec:
         args: [""]
         ports:
         - containerPort: {{ index .Values.Service 0 "originalPort" }}
-        - containerPort: {{ index .Values.Service 2 "originalPort" }}
         volumeMounts:
         - name: wf
           mountPath: wf

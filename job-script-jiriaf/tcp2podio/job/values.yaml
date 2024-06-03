@@ -6,32 +6,14 @@ Deployment:
 
   job:
     image: jlabtsai/eic:latest
-    cmd: /bin/bash -c run-EICrecon.bash
+    cmd: /bin/bash -c run-EICrecon.bash -e WORKDIR=$SCRATCH
 
 
 Service:
-- name:  ersap-exporter
-  protocol: TCP
-  port:  2221
-  originalPort: 2221
-  path: /metrics
-  interval: 15s
-- name: process-exporter
-  protocol: TCP
-  port: 1776
-  originalPort: 1776
-  path: /metrics
-  interval: 15s
-- name: ejfat-exporter
-  protocol: TCP
-  port: 8088
-  originalPort: 8088
-  path: /metrics
-  interval: 15s
 - name: jrm-exporter
   protocol: TCP
-  port:  1990
-  originalPort: 1990
+  port:  10000
+  originalPort: 10000
   path: /metrics/resource
   interval: 15s
 
