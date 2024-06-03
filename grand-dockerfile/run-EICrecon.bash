@@ -12,5 +12,6 @@ export LD_LIBRARY_PATH=${JANA_ROOT}/lib:${LD_LIBRARY_PATH}
 export JANA_PLUGIN_PATH=${PWD}/podiostream.build:${JANA_PLUGIN_PATH}
 
 export DETECTOR_PATH=/opt/detector/epic-main/share/epic
+export DD4hepINSTALL="/usr/local"
 
 eicrecon -Pplugins=podiostream podiostreamSource
