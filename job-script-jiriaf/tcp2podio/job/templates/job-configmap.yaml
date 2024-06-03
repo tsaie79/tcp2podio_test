@@ -10,3 +10,28 @@ data:
     ssh -NfL 5557:localhost:5557 jlabtsai@128.55.64.13
   
     shifter -e WORKDIR=/pscratch/sd/j/jlabtsai --image={{ .Values.Deployment.job.image }} {{ .Values.Deployment.job.cmd }}
+
+
+---
+
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: prom-{{ .Values.Deployment.name }}
+  namespace: {{ .Values.Deployment.namespace }}
+data:
+  prom.sh: |
+    #!/bin/bash
+    for dir in $(ls -t ~/{{ .Values.Deployment.namespace }}/)
+    do
+      if [ -d ~/{{ .Values.Deployment.namespace }}/$dir ]
+      then
+        # read the pgid file
+        export PGID_FILE=~/{{ .Values.Deployment.namespace }}/$dir/containers/wf/pgid
+        echo "PGID_FILE: $PGID_FILE"
+        break
+      fi
+    done
+
+    sleep {{ .Values.Deployment.prometheus_settings.wait_time_before_start }}
+    shifter --image={{ .Values.Deployment.prometheus_settings.image }} {{ .Values.Deployment.prometheus_settings.cmd }}
