@@ -1,6 +1,10 @@
 
 #!/bin/bash
 
+cp -r /app $SCRATCH/eic # make sure the SCRATCH directory is writable and accessible
+
+cd $SCRATCH/eic
+
 source /opt/detector/epic-main/bin/thisepic.sh
 source ./EICrecon/bin/eicrecon-this.sh
 source ${JANA_ROOT}/bin/jana-this.sh
