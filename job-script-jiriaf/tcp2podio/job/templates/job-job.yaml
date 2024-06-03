@@ -36,3 +36,15 @@ spec:
       - key: "virtual-kubelet.io/provider"
         value: "mock"
         effect: "NoSchedule"
+
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: jiriaf.site
+                operator: In
+                values:
+                - "perlmutter"
+
+      
