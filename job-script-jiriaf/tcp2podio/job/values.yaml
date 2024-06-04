@@ -8,6 +8,12 @@ Deployment:
     image: jlabtsai/eic:latest
     cmd: /bin/bash -c /app/run-EICrecon.bash
 
+  prometheus_settings:
+    image: jlabtsai/process-exporter:pgid-go
+    cmd: -V /proc:/host_proc --entrypoint
+    wait_time_before_start: 8
+
+
 Service:
 - name: jrm-exporter
   protocol: TCP
