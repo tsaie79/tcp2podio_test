@@ -15,13 +15,13 @@ Service:
   originalPort: 10000
   path: /metrics/resource
   interval: 15s
-# - name: process-exporter
-#   node: "0"
-#   protocol: TCP
-#   port:  1776
-#   originalPort: 1776
-#   path: /metrics
-#   interval: 15s
+- name: process-exporter
+  node: "0"
+  protocol: TCP
+  port:  1776
+  originalPort: 1776
+  path: /metrics
+  interval: 15s
 
 
 PersistentVolume:
