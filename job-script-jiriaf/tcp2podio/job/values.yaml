@@ -7,6 +7,7 @@ Deployment:
   job:
     image: jlabtsai/eic:latest
     cmd: /bin/bash -c /app/run-EICrecon.bash
+    proxy: jlabtsai@128.55.64.25
 
   prometheus_settings:
     image: jlabtsai/process-exporter:pgid-go
