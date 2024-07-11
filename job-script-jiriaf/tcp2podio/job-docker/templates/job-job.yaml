@@ -66,6 +66,6 @@ spec:
               - key: "kubernetes.io/hostname"
                 operator: In
                 values:
-                - "ejfat-2"
+                - "ejfat-5"
 
       
