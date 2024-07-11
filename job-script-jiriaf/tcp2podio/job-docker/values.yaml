@@ -23,6 +23,13 @@ Service:
   path: /metrics/resource
   interval: 15s
 
+- name: process-exporter
+  protocol: TCP
+  port: 1776
+  originalPort: 1776
+  path: /metrics
+  interval: 15s
+
 PersistentVolume:
   node: jiriaf2302-control-plane
   path: /var/prom

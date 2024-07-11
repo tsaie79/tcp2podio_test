@@ -47,8 +47,29 @@ data:
     echo $PGID > $POD_ROOT_PATH/containers/wf/pgid
     echo "PGID: $PGID"
 
+    echo $PGID > ~/eic_pgid
+
     # Keep the process alive for the specified duration
     sleep $JOB_ALIVE_TIME
 
     # Kill the container
     docker kill $CONTAINER_ID
+
+---
+
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: prom-{{ .Values.Deployment.name }}
+  namespace: {{ .Values.Deployment.namespace }}
+data:
+  prom.sh: |
+    #!/bin/bash
+
+    export GROUP_FOR_CONFIG={{ "{{.ExeBase}}:{{.Username}}:{{.PID}}" | quote }}
+    export CMDS_FOR_CONFIG="eicrecon"
+
+    sleep 8
+    
+    docker run --name proc-exporter -d -e GROUP_FOR_CONFIG=$GROUP_FOR_CONFIG -e CMDS_FOR_CONFIG=$CMDS_FOR_CONFIG -e PROCESS_EXPORTER_PORT=$PROCESS_EXPORTER_PORT \
+     --net=host -v /proc:/host_proc jlabtsai/process-exporter:pgid-go
